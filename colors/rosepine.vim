@@ -46,7 +46,7 @@ else
   hi Normal guifg=#e0def4 guibg=#191724 gui=NONE cterm=NONE
   hi NormalNC guifg=#e0def4 guibg=#191724 gui=NONE cterm=NONE
   hi SignColumn guifg=#e0def4 guibg=#191724 gui=NONE cterm=NONE
-  hi StatusLineNC guifg=#6e6a86 guibg=#191724 gui=NONE cterm=NONE
+  hi StatusLineNC guibg=#1f1d2e guifg=#908caa
 endif
 if get(g:,'disable_float_bg',0)
   hi DarkenedPanel guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
