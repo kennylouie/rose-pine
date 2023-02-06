@@ -63,7 +63,7 @@ else
   hi Folded guifg=#e0def4 guibg=#1f1d2e gui=NONE cterm=NONE
   hi NormalFloat guifg=#e0def4 guibg=#1f1d2e gui=NONE cterm=NONE
   hi Pmenu guifg=#908caa guibg=#1f1d2e gui=NONE cterm=NONE
-  hi StatusLine guifg=#908caa guibg=#1f1d2e gui=NONE cterm=NONE
+  hi StatusLine guifg=#26233a guibg=#c4a7e7
   hi TabLine guifg=#908caa guibg=#1f1d2e gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=#1f1d2e gui=NONE cterm=NONE
 endif
