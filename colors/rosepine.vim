@@ -35,7 +35,7 @@ hi! link mkdLinkDef mkdInlineURL
 hi! link mkdURL mkdInlineURL
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#26233a', '#eb6f92', '#78a9ff', '#25be6a', '#6bc6ff', '#c4a7e7', '#ebbcba', '#e0def4', '#908caa', '#eb6f92', '#78a9ff', '#25be6a', '#6bc6ff', '#c4a7e7', '#ebbcba', '#e0def4']
+  let g:terminal_ansi_colors = ['#26233a', '#eb6f92', '#78a9ff', '#25be6a', '#6bc6ff', '#c4a7e7', '#e58e8a', '#e0def4', '#908caa', '#eb6f92', '#78a9ff', '#25be6a', '#6bc6ff', '#c4a7e7', '#e58e8a', '#e0def4']
 endif
 if get(g:,'disable_bg',0)
   hi Normal guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
@@ -89,7 +89,7 @@ hi ErrorMsg guifg=#eb6f92 guibg=NONE gui=bold cterm=bold
 hi FloatBorder guifg=#403d52 guibg=NONE gui=NONE cterm=NONE
 hi FloatTitle guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
-hi IncSearch guifg=#191724 guibg=#ebbcba gui=NONE cterm=NONE
+hi IncSearch guifg=#191724 guibg=#e58e8a gui=NONE cterm=NONE
 hi LineNr guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#e0def4 guibg=#403d52 gui=NONE cterm=NONE
 hi ModeMsg guifg=#908caa guibg=NONE gui=NONE cterm=NONE
@@ -110,18 +110,18 @@ hi Title guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#403d52 guibg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE guibg=#403d52 gui=NONE cterm=NONE
 hi WarningMsg guifg=#25be6a guibg=NONE gui=NONE cterm=NONE
-hi Boolean guifg=#ebbcba guibg=NONE gui=NONE cterm=NONE
+hi Boolean guifg=#e58e8a guibg=NONE gui=NONE cterm=NONE
 hi Character guifg=#25be6a guibg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#78a9ff guibg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#25be6a guibg=NONE gui=NONE cterm=NONE
-hi Debug guifg=#ebbcba guibg=NONE gui=NONE cterm=NONE
+hi Debug guifg=#e58e8a guibg=NONE gui=NONE cterm=NONE
 hi Define guifg=#c4a7e7 guibg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi Error guifg=#eb6f92 guibg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#78a9ff guibg=NONE gui=NONE cterm=NONE
 hi Float guifg=#25be6a guibg=NONE gui=NONE cterm=NONE
-hi Function guifg=#ebbcba guibg=NONE gui=NONE cterm=NONE
-hi Identifier guifg=#ebbcba guibg=NONE gui=NONE cterm=NONE
+hi Function guifg=#e58e8a guibg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#e58e8a guibg=NONE gui=NONE cterm=NONE
 hi Include guifg=#c4a7e7 guibg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#78a9ff guibg=NONE gui=NONE cterm=NONE
 hi Label guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
@@ -131,14 +131,14 @@ hi Operator guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#c4a7e7 guibg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#c4a7e7 guibg=NONE gui=NONE cterm=NONE
 hi Repeat guifg=#78a9ff guibg=NONE gui=NONE cterm=NONE
-hi Special guifg=#ebbcba guibg=NONE gui=NONE cterm=NONE
-hi SpecialChar guifg=#ebbcba guibg=NONE gui=NONE cterm=NONE
+hi Special guifg=#e58e8a guibg=NONE gui=NONE cterm=NONE
+hi SpecialChar guifg=#e58e8a guibg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#c4a7e7 guibg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#78a9ff guibg=NONE gui=NONE cterm=NONE
 hi StorageClass guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
 hi String guifg=#25be6a guibg=NONE gui=NONE cterm=NONE
 hi Structure guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
-hi Tag guifg=#ebbcba guibg=NONE gui=NONE cterm=NONE
+hi Tag guifg=#e58e8a guibg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#c4a7e7 guibg=NONE gui=NONE cterm=NONE
 hi Type guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
@@ -148,7 +148,7 @@ hi htmlBold guifg=NONE guibg=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
 hi htmlEndTag guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi htmlH1 guifg=#c4a7e7 guibg=NONE gui=bold cterm=bold
 hi htmlH2 guifg=#6bc6ff guibg=NONE gui=bold cterm=bold
-hi htmlH3 guifg=#ebbcba guibg=NONE gui=bold cterm=bold
+hi htmlH3 guifg=#e58e8a guibg=NONE gui=bold cterm=bold
 hi htmlH4 guifg=#25be6a guibg=NONE gui=bold cterm=bold
 hi htmlH5 guifg=#78a9ff guibg=NONE gui=bold cterm=bold
 if !s:italics 
@@ -166,7 +166,7 @@ hi htmlTagName guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
 hi markdownDelimiter guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi markdownH1 guifg=#c4a7e7 guibg=NONE gui=bold cterm=bold
 hi markdownH2 guifg=#6bc6ff guibg=NONE gui=bold cterm=bold
-hi markdownH3 guifg=#ebbcba guibg=NONE gui=bold cterm=bold
+hi markdownH3 guifg=#e58e8a guibg=NONE gui=bold cterm=bold
 hi markdownH4 guifg=#25be6a guibg=NONE gui=bold cterm=bold
 hi markdownH5 guifg=#78a9ff guibg=NONE gui=bold cterm=bold
 hi markdownH6 guifg=#6bc6ff guibg=NONE gui=bold cterm=bold
@@ -179,7 +179,7 @@ else
     hi mkdCode gui=NONE cterm=NONE
   endif
 endif
-hi mkdCodeDelimiter guifg=#ebbcba guibg=NONE gui=NONE cterm=NONE
+hi mkdCodeDelimiter guifg=#e58e8a guibg=NONE gui=NONE cterm=NONE
 hi mkdCodeEnd guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
 hi mkdCodeStart guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
 hi mkdFootnotes guifg=#6bc6ff guibg=NONE gui=NONE cterm=NONE
@@ -190,7 +190,7 @@ hi mkdRule guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi VimwikiHR guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi VimwikiHeader1 guifg=#c4a7e7 guibg=NONE gui=bold cterm=bold
 hi VimwikiHeader2 guifg=#6bc6ff guibg=NONE gui=bold cterm=bold
-hi VimwikiHeader3 guifg=#ebbcba guibg=NONE gui=bold cterm=bold
+hi VimwikiHeader3 guifg=#e58e8a guibg=NONE gui=bold cterm=bold
 hi VimwikiHeader4 guifg=#25be6a guibg=NONE gui=bold cterm=bold
 hi VimwikiHeader5 guifg=#78a9ff guibg=NONE gui=bold cterm=bold
 hi VimwikiHeader6 guifg=#6bc6ff guibg=NONE gui=bold cterm=bold
@@ -374,7 +374,7 @@ endif
 " Color: text           #e0def4 ~
 " Color: love           #eb6f92 ~
 " Color: gold           #25be6a ~
-" Color: rose           #ebbcba ~
+" Color: rose           #e58e8a ~
 " Color: pine           #78a9ff ~
 " Color: foam           #6bc6ff ~
 " Color: iris           #c4a7e7 ~
