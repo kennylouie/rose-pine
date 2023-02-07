@@ -75,10 +75,6 @@ else
     hi Comment gui=NONE cterm=NONE
   endif
 endif
-hi GitGutterAdd guifg=#01e977 guibg=NONE gui=NONE cterm=NONE
-hi GitGutterChange guifg=#39a9e2 guibg=NONE gui=NONE cterm=NONE
-hi GitGutterDelete guifg=#F5727D guibg=NONE gui=NONE cterm=NONE
-hi GitGutterChangeDelete guifg=#8846C2 guibg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#26233a gui=NONE cterm=NONE
 hi Conceal guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi CursorColumn guifg=NONE guibg=#21202e gui=NONE cterm=NONE
@@ -93,6 +89,10 @@ hi ErrorMsg guifg=#eb6f92 guibg=NONE gui=bold cterm=bold
 hi FloatBorder guifg=#403d52 guibg=NONE gui=NONE cterm=NONE
 hi FloatTitle guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
+hi GitGutterAdd guifg=#01e977 guibg=NONE gui=NONE cterm=NONE
+hi GitGutterChange guifg=#39a9e2 guibg=NONE gui=NONE cterm=NONE
+hi GitGutterDelete guifg=#F5727D guibg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeDelete guifg=#8846C2 guibg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#191724 guibg=#F5727D gui=NONE cterm=NONE
 hi LineNr guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#e0def4 guibg=#403d52 gui=NONE cterm=NONE
