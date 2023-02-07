@@ -47,10 +47,6 @@ else
   hi NormalNC guifg=#e0def4 guibg=#191724 gui=NONE cterm=NONE
   hi SignColumn guifg=#e0def4 guibg=#191724 gui=NONE cterm=NONE
   hi StatusLineNC guibg=#1f1d2e guifg=#908caa
-  hi GitGutterAdd guifg=#01e977
-  hi GitGutterChange guifg=#39a9e2
-  hi GitGutterDelete guifg=#F5727D
-  hi GitGutterChangeDelete guifg=#8846C2
 endif
 if get(g:,'disable_float_bg',0)
   hi DarkenedPanel guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -70,10 +66,6 @@ else
   hi StatusLine guifg=#26233a guibg=#c4a7e7
   hi TabLine guifg=#908caa guibg=#1f1d2e gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=#1f1d2e gui=NONE cterm=NONE
-  hi GitGutterAdd guifg=#01e977
-  hi GitGutterChange guifg=#39a9e2
-  hi GitGutterDelete guifg=#F5727D
-  hi GitGutterChangeDelete guifg=#8846C2
 endif
 if !s:italics 
   hi Comment guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
@@ -83,6 +75,10 @@ else
     hi Comment gui=NONE cterm=NONE
   endif
 endif
+hi GitGutterAdd guifg=#01e977 guibg=NONE gui=NONE cterm=NONE
+hi GitGutterChange guifg=#39a9e2 guibg=NONE gui=NONE cterm=NONE
+hi GitGutterDelete guifg=#F5727D guibg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeDelete guifg=#8846C2 guibg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#26233a gui=NONE cterm=NONE
 hi Conceal guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi CursorColumn guifg=NONE guibg=#21202e gui=NONE cterm=NONE
