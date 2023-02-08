@@ -35,24 +35,24 @@ hi! link mkdLinkDef mkdInlineURL
 hi! link mkdURL mkdInlineURL
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#26233a', '#eb6f92', '#8846C2', '#39a9e2', '#55BBD2', '#c4a7e7', '#F5727D', '#e0def4', '#908caa', '#eb6f92', '#8846C2', '#39a9e2', '#55BBD2', '#c4a7e7', '#F5727D', '#e0def4']
+  let g:terminal_ansi_colors = ['#26233a', '#eb6f92', '#8846C2', '#39a9e2', '#55BBD2', '#c4a7e7', '#F5727D', '#e5daf4', '#908caa', '#eb6f92', '#8846C2', '#39a9e2', '#55BBD2', '#c4a7e7', '#F5727D', '#e5daf4']
 endif
 if get(g:,'disable_bg',0)
-  hi Normal guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
-  hi NormalNC guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
-  hi SignColumn guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
+  hi Normal guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
+  hi NormalNC guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
+  hi SignColumn guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
   hi StatusLineNC guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
 else
-  hi Normal guifg=#e0def4 guibg=#191724 gui=NONE cterm=NONE
-  hi NormalNC guifg=#e0def4 guibg=#191724 gui=NONE cterm=NONE
-  hi SignColumn guifg=#e0def4 guibg=#191724 gui=NONE cterm=NONE
+  hi Normal guifg=#e5daf4 guibg=#191724 gui=NONE cterm=NONE
+  hi NormalNC guifg=#e5daf4 guibg=#191724 gui=NONE cterm=NONE
+  hi SignColumn guifg=#e5daf4 guibg=#191724 gui=NONE cterm=NONE
   hi StatusLineNC guibg=#1f1d2e guifg=#908caa
 endif
 if get(g:,'disable_float_bg',0)
   hi DarkenedPanel guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi DarkenedStatusline guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Folded guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
-  hi NormalFloat guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
+  hi Folded guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
+  hi NormalFloat guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
   hi Pmenu guifg=#908caa guibg=NONE gui=NONE cterm=NONE
   hi StatusLine guifg=#908caa guibg=NONE gui=NONE cterm=NONE
   hi TabLine guifg=#908caa guibg=NONE gui=NONE cterm=NONE
@@ -60,8 +60,8 @@ if get(g:,'disable_float_bg',0)
 else
   hi DarkenedPanel guifg=NONE guibg=#1f1d2e gui=NONE cterm=NONE
   hi DarkenedStatusline guifg=NONE guibg=#1f1d2e gui=NONE cterm=NONE
-  hi Folded guifg=#e0def4 guibg=#1f1d2e gui=NONE cterm=NONE
-  hi NormalFloat guifg=#e0def4 guibg=#1f1d2e gui=NONE cterm=NONE
+  hi Folded guifg=#e5daf4 guibg=#1f1d2e gui=NONE cterm=NONE
+  hi NormalFloat guifg=#e5daf4 guibg=#1f1d2e gui=NONE cterm=NONE
   hi Pmenu guifg=#908caa guibg=#1f1d2e gui=NONE cterm=NONE
   hi StatusLine guifg=#26233a guibg=#c4a7e7
   hi TabLine guifg=#908caa guibg=#1f1d2e gui=NONE cterm=NONE
@@ -79,7 +79,7 @@ hi ColorColumn guifg=NONE guibg=#26233a gui=NONE cterm=NONE
 hi Conceal guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi CursorColumn guifg=NONE guibg=#21202e gui=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#21202e gui=NONE cterm=NONE
-hi CursorLineNr guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
+hi CursorLineNr guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=NONE guibg=#333c48 gui=NONE cterm=NONE
 hi DiffChange guifg=NONE guibg=#26233a gui=NONE cterm=NONE
 hi DiffDelete guifg=NONE guibg=#43293a gui=NONE cterm=NONE
@@ -95,12 +95,12 @@ hi GitGutterDelete guifg=#F5727D guibg=NONE gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#8846C2 guibg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#191724 guibg=#F5727D gui=NONE cterm=NONE
 hi LineNr guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
-hi MatchParen guifg=#e0def4 guibg=#403d52 gui=NONE cterm=NONE
+hi MatchParen guifg=#e5daf4 guibg=#403d52 gui=NONE cterm=NONE
 hi ModeMsg guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#c4a7e7 guibg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#6e6a86 guibg=NONE gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE guibg=#21202e gui=NONE cterm=NONE
-hi PmenuSel guifg=#e0def4 guibg=#26233a gui=NONE cterm=NONE
+hi PmenuSel guifg=#e5daf4 guibg=#26233a gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE guibg=#403d52 gui=NONE cterm=NONE
 hi Question guifg=#39a9e2 guibg=NONE gui=NONE cterm=NONE
 hi Search guifg=NONE guibg=#403d52 gui=NONE cterm=NONE
@@ -109,8 +109,8 @@ hi SpellBad guifg=NONE guibg=NONE guisp=#908caa gui=undercurl ctermfg=NONE cterm
 hi SpellCap guifg=NONE guibg=NONE guisp=#908caa gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
 hi SpellLocal guifg=NONE guibg=NONE guisp=#908caa gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
 hi SpellRare guifg=NONE guibg=NONE guisp=#908caa gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
-hi TabLineSel guifg=#e0def4 guibg=#26233a gui=NONE cterm=NONE
-hi Title guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
+hi TabLineSel guifg=#e5daf4 guibg=#26233a gui=NONE cterm=NONE
+hi Title guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#403d52 guibg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE guibg=#403d52 gui=NONE cterm=NONE
 hi WarningMsg guifg=#39a9e2 guibg=NONE gui=NONE cterm=NONE
@@ -165,7 +165,7 @@ else
 endif
 hi htmlLink guifg=#c4a7e7 guibg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#908caa guibg=NONE gui=NONE cterm=NONE
-hi htmlTagN guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
+hi htmlTagN guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
 hi htmlTagName guifg=#55BBD2 guibg=NONE gui=NONE cterm=NONE
 hi markdownDelimiter guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi markdownH1 guifg=#c4a7e7 guibg=NONE gui=bold cterm=bold
@@ -189,7 +189,7 @@ hi mkdCodeStart guifg=#55BBD2 guibg=NONE gui=NONE cterm=NONE
 hi mkdFootnotes guifg=#55BBD2 guibg=NONE gui=NONE cterm=NONE
 hi mkdID guifg=#55BBD2 guibg=NONE gui=underline cterm=underline
 hi mkdInlineURL guifg=#c4a7e7 guibg=NONE gui=underline cterm=underline
-hi mkdListItemLine guifg=#e0def4 guibg=NONE gui=NONE cterm=NONE
+hi mkdListItemLine guifg=#e5daf4 guibg=NONE gui=NONE cterm=NONE
 hi mkdRule guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi VimwikiHR guifg=#908caa guibg=NONE gui=NONE cterm=NONE
 hi VimwikiHeader1 guifg=#c4a7e7 guibg=NONE gui=bold cterm=bold
@@ -375,7 +375,7 @@ endif
 " Color: overlay        #26233a ~
 " Color: muted          #6e6a86 ~
 " Color: subtle         #908caa ~
-" Color: text           #e0def4 ~
+" Color: text           #e5daf4 ~
 " Color: love           #eb6f92 ~
 " Color: gold           #39a9e2 ~
 " Color: rose           #F5727D ~
